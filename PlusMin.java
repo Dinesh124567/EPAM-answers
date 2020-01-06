@@ -11,7 +11,8 @@ public class PlusMin{
          String t="";
                  for(int i=0; i<num.length(); i++) t+="-";
          if(sum==0 && pos==num.length())
-             { if(str.charAt(0)=='+')System.out.println(str.substring(1,str.length())); return true;}             
+             { if(str.charAt(0)=='+')System.out.println(str.substring(1,str.length()));
+               else System.out.println(str); return true;}             
 
   
         else if(pos<num.length()){
