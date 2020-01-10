@@ -1,5 +1,6 @@
 # EPAM-answers
 EPAM coding answers are solved in here on my own., you can ask more coding questions in comments.
+since i got only two questions known to me, if you know any other questions i would appreciate to share the questions with all description in the issues section or anywhere so that i can reach the questions.
 
 # PlusMin
    for given integer input do the addition or subtraction for individual digits to sum to zero, if sum is not zero in all possible additions or subractions then print - not possible.
