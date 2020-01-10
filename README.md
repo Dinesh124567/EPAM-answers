@@ -16,7 +16,7 @@ EPAM coding answers are solved in here on my own., you can ask more coding quest
     that the number of charecters removed is minimum and print that minimum number as an output if any word from dictionary is not matched then print not possible. 
    
     input- contains two lines
-            first line contains individual seperated word ordinary word
+            first line contains individual seperate word ordinary word
             second line contains dictionary ie words seperated by commas
     output- one line that gives the minimum charecter removel number as above described, or "not possible" if not matched
     
