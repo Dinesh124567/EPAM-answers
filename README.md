@@ -4,7 +4,7 @@ EPAM coding answers are solved in here on my own., you can ask more coding quest
 # PlusMin
    for given integer input do the addition or subtraction for individual digits to sum to zero, if sum is not zero in all possible additions or subractions then print - not possible
     
-   input - contains first line with one integer 
+    input - contains first line with one integer 
     output - contains string that represents the sequence of operations
     Example-
     input - 1313
@@ -15,12 +15,12 @@ EPAM coding answers are solved in here on my own., you can ask more coding quest
    an array of two elements of string one containing an individual word and another containing words seperated by ',' we term here dictionary. your task is to remove the charecters from the first word (individual word) to match any of the words from the dictionary 
     that the number of charecters removed is minimum and print that minimum number as an output if any word from dictionary is not matched then print not possible. 
    
-   input- contains two lines
+    input- contains two lines
             first line contains individual seperated word ordinary word
             second line contains dictionary ie words seperated by commas
     output- one line that gives the minimum charecter removel number as above described, or "not possible" if not matched
     
-   example -
+    example -
      input- baseball
             all,ll,se,zz,ball
     output- 4
