@@ -29,10 +29,10 @@ for(int i=0; i<lst.length; i++) lst[i]=0;
        if(strArr[0].contains(str2[i])){
           lst[i]=strArr[0].length()-str2[i].length();
        }
-       else{String dup=""+strArr[0]; int min=0;
+       else{String dup=""+strArr[0]; int din=0;
            for(int j=0; j<str2[i].length(); j++)
-               if(dup.charAt(j)!=str2[i].charAt(j)) {lst[i]++; dup=charRemoveAt(dup,j);  }
-           lst[i]+=(dup.length()-str2[i].length());}
+               if(dup.charAt(j-din)!=str2[i].charAt(j-din)) { lst[i]++; dup=charRemoveAt(dup,j-din);  din++; }
+           if(! dup.equals(str2[i]))lst[i]+=(dup.length());}
    }
 
    Arrays.sort(lst);
@@ -53,7 +53,9 @@ for(int i=0; i<lst.length; i++) lst[i]=0;
         String userInput = sc.next(); 
         input[i] = userInput; 
     } 
-    System.out.print(CharacterRemoval(input)); 
+    
+    if(CharacterRemoval(input)==input[0].length())System.out.println(input[0].length()+" length");
+    else System.out.print(CharacterRemoval(input)); 
   }
 
 }
