@@ -6,22 +6,20 @@ public class CharectRemove {
 
   public static int CharacterRemoval(String[] strArr) {
     // code goes here  
-    int lest=strArr[1].length();
-    int l1=lest;
     
    String[] str2= strArr[1].split(",");
-
-for(int i=0;i<str2.length;i++)
-  {
-  for(int j=i+1;j<str2.length;j++)
-  {
-  if(str2[i].length()<str2[j].length())
-  {
-  String temp= str2[i];
-  str2[i]=str2[j];
-  str2[j]=temp;
-  }
-  }}
+    
+   for(int i=0;i<str2.length;i++)
+      {
+       for(int j=i+1;j<str2.length;j++)
+       {
+          if(str2[i].length()<str2[j].length())
+          {
+            String temp= str2[i];
+            str2[i]=str2[j];
+            str2[j]=temp;
+          }}}
+    
 int lst[]=new int [str2.length];
 for(int i=0; i<lst.length; i++) lst[i]=0;
      
