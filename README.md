@@ -27,3 +27,11 @@ since i got only two questions to know, if you know any other questions i would 
     output- 4
     explanation- the minimum noof charecter to be removed from word baseball is 4 as b,a,s,e are removed to match 'ball' word from dictionary.
     
+# Program understanding
+ 
+For plusMin, i used backtracking algorithm and i tried dynamic programming but not implemented.
+For CharectRemove, i simply used dynamic programming approach as i used an array to store the numbers represents the removal of charecters and then i sorted the array to return the shortest number from that array.
+
+# Difficulty level
+
+In my opinion these questions are not so difficult, they are below moderate / medium, (somewhere between easy and medium)
