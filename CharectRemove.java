@@ -55,5 +55,4 @@ for(int i=0; i<lst.length; i++) lst[i]=0;
     if(CharacterRemoval(input)==input[0].length())System.out.println(input[0].length()+" length");
     else System.out.print(CharacterRemoval(input)); 
   }
-
 }
